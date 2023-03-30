@@ -1,32 +1,32 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Algoritmo que leia o numero de maças compradas, calcule e escreva o custo total da compra (função)
+// DescriÃ§Ã£o   : Algoritmo que leia o numero de maÃ§as compradas, calcule e escreva o custo total da compra (funÃ§Ã£o)
 // Autor(a)    : Lucas Rodrigues Barauna
 // Data atual  : 30/03/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 macasCompradas : real
 soma: real
 varejo, atacado : real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 varejo <- 1.30
 atacado <- 1.00
 
-escreva("Quantas maças voce comprou?")
+escreva("Quantas maÃ§as voce comprou?")
 leia(macasCompradas)
 escreval(" ")
 
 se (macasCompradas>=12) entao
 soma <- (macasCompradas * atacado)
-escreval("O total é: ", soma)
+escreval("O total Ã©: ", soma)
 FIMSE
 
 se (macasCompradas<12) entao
 soma <- (macasCompradas * varejo)
-escreval("O total é: ", soma)
+escreval("O total Ã©: ", soma)
 FIMSE
 Fimalgoritmo
