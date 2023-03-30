@@ -1,16 +1,16 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Algoritmo para ler o nome de um aluno, sua idade(em anos) e as tres notas. Calcular a media anual do aluno. Caso a media do aluno seja menor que 7, o aluno esta reprovado (função)
+// DescriÃ§Ã£o   : Algoritmo para ler o nome de um aluno, sua idade(em anos) e as tres notas. Calcular a media anual do aluno. Caso a media do aluno seja menor que 7, o aluno esta reprovado (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 aluno : caractere
 idade, notas1, notas2, notas3, media: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Nome do aluno ")
 leia(aluno)
 escreval(" ")
